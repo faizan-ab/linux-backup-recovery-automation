@@ -1,19 +1,23 @@
-# Linux Shell Scripts for DevOps
+# Linux Backup and Recovery Automation Project
 
-This repository contains useful Linux automation scripts used in DevOps and cloud environments.
+This project demonstrates automated backup and recovery of important files in Linux using shell scripting.
 
-## Scripts Included
+## Features
 
-- System Health Check
-- Disk Usage Alert
-- Automated Backup Script
-- Log Cleanup Script
+- Automated directory backup
+- Compressed archive creation
+- Backup logging
+- Recovery/Restore script
+- Cron job scheduling
 
 ## Technologies Used
 
 - Linux
 - Bash Shell Scripting
+- Cron Jobs
 
-## Author
+## How to Run
 
-Faizan (Cloud & DevOps Engineer)
+### Backup
+```bash
+bash backup.sh
