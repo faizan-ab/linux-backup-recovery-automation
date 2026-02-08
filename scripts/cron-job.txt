@@ -1,0 +1,2 @@
+# Daily backup at 12 AM
+0 0 * * * /bin/bash /home/faizan/backup.sh
