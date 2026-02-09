@@ -67,6 +67,9 @@ Daily automated execution using cron:
 
 # Upload backup at 2:30 AM
 30 2 * * * /opt/backupsystem/scripts/upload.sh
+```
 
 ## 🏗 Architecture Diagram
 ![Architecture](diagrams/monitoring-architecture.png)
+
+
