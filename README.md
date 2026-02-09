@@ -56,9 +56,6 @@ This project reflects real-world Linux server backup practices used in productio
 ##To restore 
 ./restore.sh /opt/backupsystem/backups/backup_YYYY-MM-DD_HH-MM-SS.tar.gz
 
-
-## 🏗 Architecture Diagram
-![Architecture](diagrams/monitoring-architecture.png)
 ---
 
 ## 🕒 Cron Jobs
@@ -70,3 +67,6 @@ Daily automated execution using cron:
 
 # Upload backup at 2:30 AM
 30 2 * * * /opt/backupsystem/scripts/upload.sh
+
+## 🏗 Architecture Diagram
+![Architecture](diagrams/monitoring-architecture.png)
